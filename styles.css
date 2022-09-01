@@ -7,6 +7,8 @@ body {
   font-weight: bold;
 }
 
+
+
 h1 {
   color: goldenrod;
 }
@@ -22,4 +24,30 @@ button {
   padding: 3px 0px 3px 0px;
   text-transform: uppercase;
   margin-bottom: 5px;
+}
+
+.dice-area{
+  margin-top: 50px;
+  display: flex;
+}
+
+.dado2,
+.dado1{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  margin: auto;
+  border-radius: 26px;
+}
+img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.hide{
+  opacity: 0;
 }
