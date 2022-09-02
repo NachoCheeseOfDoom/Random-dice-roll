@@ -29,6 +29,7 @@ function mostrarJuego() {
     dadosEl.innerHTML += dados[i] + " "
   }
   sumEl.textContent = "Sum: " + sum
+  // Dice 1 
   if (dados[0] === 1) {
     dice1El.innerHTML = `<img src="dices/dice1.png" alt="dice 1" />`
   } else if (dados[0] === 2) {
@@ -43,6 +44,7 @@ function mostrarJuego() {
     dice1El.innerHTML = `<img src="dices/dice-6.png" alt="dice 6" />`
   }
   //---------------------------------------------------------------------
+  // Dice 2
   if (dados[1] === 1) {
     dice2El.innerHTML = `<img src="dices/dice1.png" alt="dice 1" />`
   } else if (dados[1] === 2) {
